@@ -1,0 +1,30 @@
+.guide-toggle {
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    min-width: 100px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.guide-toggle:hover {
+    font-size: 10pt;
+    font-weight: bold;
+    color: white;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    min-width: 100px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.guide-toggle:active {
+    box-shadow: 1px 1px 5px black;
+    transform: translateY(1px);
+}
+
+

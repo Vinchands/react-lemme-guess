@@ -1,0 +1,8 @@
+.guess-button {
+    color: white;
+    text-align: center;
+    background-color: crimson;
+    border: none;
+    margin: 4px;
+    padding: 8px;
+}

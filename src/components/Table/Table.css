@@ -1,0 +1,52 @@
+.table {
+    border: 1px solid black;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table:first-of-type {
+    margin-top: 2em;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    border: 1px solid black;
+    padding: 1em;
+}
+
+.table th div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table td {
+    border: 1px solid black;
+    padding: 1em;
+    text-align: center;
+}
+
+input[type="checkbox"] {
+    width: 20px; /* Ubah lebar sesuai kebutuhan */
+    height: 20px; /* Ubah tinggi sesuai kebutuhan */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    -webkit-appearance: none; /* Menghilangkan gaya default di Safari */
+    -moz-appearance: none; /* Menghilangkan gaya default di Firefox */
+    appearance: none; /* Menghilangkan gaya default di browser lain */
+    background-color: #eee; /* Warna latar belakang untuk checkbox */
+    border: 2px solid #ccc; /* Border untuk checkbox */
+    border-radius: 4px; /* Sudut melengkung */
+    position: relative;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #2196F3; /* Warna saat dicentang */
+}
+
+input[type="checkbox"]:checked::after {
+    content: "✔"; /* Tanda centang */
+    color: white; /* Warna tanda centang */
+    position: absolute;
+    left: 3.5px; /* Posisi tanda centang */
+    top: -1px; /* Posisi tanda centang */
+}

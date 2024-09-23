@@ -1,0 +1,8 @@
+.reset-button {
+    color: white;
+    text-align: center;
+    background-color: lightslategray;
+    border: none;
+    margin: 4px;
+    padding: 8px;
+}
